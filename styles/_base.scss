@@ -1,0 +1,140 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #181818;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    letter-spacing: 0.2px;
+    font-style: normal;
+    color: $light-text-col;
+}
+
+.m0-a {
+    margin: 0 auto;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-l {
+    text-align-last: left;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-i {
+    display: inline-flex;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-e {
+    align-items: end;
+}
+
+.ai-s {
+    align-items: start;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-e {
+    justify-content: end;
+}
+
+.jc-s {
+    justify-content: start;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.flex-w {
+    flex-wrap: wrap;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.po-r {
+    position: relative;
+}
+
+.po-a {
+    position: absolute;
+}

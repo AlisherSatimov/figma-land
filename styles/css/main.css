@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #181818;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  letter-spacing: 0.2px;
+  font-style: normal;
+  color: #fff;
+}
+
+.m0-a {
+  margin: 0 auto;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-i, .btn, .primary-btn, .standart-btn {
+  display: inline-flex;
+}
+
+.ai-c, .btn, .primary-btn, .standart-btn {
+  align-items: center;
+}
+
+.ai-e {
+  align-items: end;
+}
+
+.ai-s {
+  align-items: start;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-e {
+  justify-content: end;
+}
+
+.jc-s {
+  justify-content: start;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.flex-w {
+  flex-wrap: wrap;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.po-r {
+  position: relative;
+}
+
+.po-a {
+  position: absolute;
+}
+
+.btn, .primary-btn, .standart-btn {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  padding: 13.5px 46px;
+  cursor: pointer;
+}
+
+.standart-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.primary-btn {
+  background-color: #4452fe;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.headline {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 88px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.second-headline {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.paragraphe {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}/*# sourceMappingURL=main.css.map */

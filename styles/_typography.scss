@@ -1,0 +1,71 @@
+.btn {
+    @extend .flex-i, .ai-c;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: $light-text-col;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+
+    padding: 13.5px 46px;
+    cursor: pointer;
+}
+
+.standart-btn {
+    @extend .btn;
+
+    background-color: transparent;
+    border: 1px solid $light-text-col;
+}
+
+.primary-btn {
+    @extend .btn;
+
+    background-color: $primary-col;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.headline {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.second-headline {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+
+.paragraphe {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
