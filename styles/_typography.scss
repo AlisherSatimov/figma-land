@@ -1,15 +1,18 @@
+@import "variables";
+@import "base";
+
 .btn {
     @extend .flex-i, .ai-c;
 
+    color: $light-text-col;
     font-size: 17px;
     font-weight: 500;
     line-height: 25px;
     letter-spacing: 0.2px;
-    color: $light-text-col;
-    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
-
     padding: 13.5px 46px;
+
     cursor: pointer;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
 
 .standart-btn {
