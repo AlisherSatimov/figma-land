@@ -271,7 +271,7 @@ body {
     width: 832px;
     padding: 100px 0;
 
-    .partners_content {
+    .partners-content {
         @extend .flex-i, .fd-c, .ai-c;
 
         .second-headline,
@@ -294,6 +294,52 @@ body {
 // PARTNERS - SECTION END
 
 // TESTIMONIALS - SECTION START
+
+#testimonials {
+    @extend .m0-a;
+
+    width: 885px;
+    padding: 50px 0;
+
+    img {
+        width: 50px;
+    }
+
+    .testimonials-content {
+        .second-headline {
+            @extend .ta-c;
+
+            margin-bottom: 50px;
+        }
+
+        .client-cards {
+            @extend .flex, .ai-s, .flex-w, .jc-c;
+            margin: 0;
+            padding: 0;
+            gap: 8px;
+        }
+
+        .first-column,
+        .second-column {
+            width: 400px;
+        }
+
+        .client-card {
+            display: inline-block;
+            padding: 40px;
+            border-radius: 10px;
+            border: 1px solid #dedede;
+            margin-bottom: 23px;
+        }
+
+        .client {
+            @extend .flex, .ai-c;
+
+            gap: 23px;
+            margin-bottom: 30px;
+        }
+    }
+}
 
 // TESTIMONIALS - SECTION END
 
