@@ -26,6 +26,7 @@
     @extend .btn;
 
     background-color: $primary-col;
+    border: 1px solid $primary-col;
 }
 
 .link {

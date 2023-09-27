@@ -1,3 +1,71 @@
 @import "base";
 @import "variables";
 @import "typography";
+
+body {
+    background-color: $main-bg-col;
+    color: $light-text-col;
+}
+
+#header {
+    .navbar {
+        @extend .flex, .jc-sb, .ai-c, .m0-a;
+
+        max-width: 1100px;
+        padding: 33px 39px;
+
+        ul {
+            @extend .flex, .jc-sb;
+
+            width: 30%;
+            margin-right: 4%;
+
+            li {
+                @extend .link;
+            }
+        }
+
+        img {
+            width: 186px;
+            height: 58px;
+        }
+    }
+
+    .showcase {
+        @extend .ta-c, .flex, .fd-c;
+
+        padding: 35px 0;
+
+        .showcase-text {
+            margin: 50px auto;
+
+            .headline {
+                padding: 10px;
+                margin-bottom: 17px;
+            }
+
+            .sub-heading {
+                padding: 10px;
+            }
+        }
+
+        .showcase-btns {
+            @extend .flex, .jc-c;
+            gap: 35px;
+            .primary-btn,
+            .standart-btn {
+                padding: 20px 40px;
+            }
+        }
+    }
+
+    .screens {
+        @extend .m0-a, .po-r;
+
+        max-width: 1552px;
+        height: 850px;
+        background-image: url(../../../images/screens_img-linear.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
