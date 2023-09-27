@@ -64,7 +64,7 @@ p {
   margin: 0 auto;
 }
 
-.ta-c, #features .sub-heading, #features .second-headline, #header .showcase {
+.ta-c, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
   text-align: center;
 }
 
@@ -81,7 +81,7 @@ p {
   display: flex;
 }
 
-.flex-i, .btn, .primary-btn, .standart-btn {
+.flex-i, #contents .cards, .btn, .primary-btn, .standart-btn {
   display: inline-flex;
 }
 
@@ -201,7 +201,7 @@ p {
   margin: 0 auto;
 }
 
-.ta-c, #features .sub-heading, #features .second-headline, #header .showcase {
+.ta-c, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
   text-align: center;
 }
 
@@ -218,7 +218,7 @@ p {
   display: flex;
 }
 
-.flex-i, .btn, .primary-btn, .standart-btn {
+.flex-i, #contents .cards, .btn, .primary-btn, .standart-btn {
   display: inline-flex;
 }
 
@@ -424,6 +424,90 @@ body {
 #features .features-content .features-content-rows .feature-content-row .paragraphe {
   height: 96px;
   padding: 10px;
+}
+
+#contents {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+#contents .headline {
+  padding: 10px;
+}
+#contents .sub-heading {
+  padding: 10px;
+  margin-bottom: 44px;
+}
+#contents .cards {
+  max-width: 985px;
+  gap: 35px;
+}
+#contents .cards .first-card,
+#contents .cards .second-card {
+  max-width: 476px;
+  padding: 40px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+#contents .cards .first-card .title, #contents .cards .first-card #footer .footer_lists .footer_list li:first-child, #footer .footer_lists .footer_list #contents .cards .first-card li:first-child,
+#contents .cards .second-card .title,
+#contents .cards .second-card #footer .footer_lists .footer_list li:first-child,
+#footer .footer_lists .footer_list #contents .cards .second-card li:first-child {
+  color: #000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#contents .cards .first-card .paragraphe,
+#contents .cards .second-card .paragraphe {
+  color: #5c5c5c;
+  padding: 10px;
+}
+#contents .cards .first-card .primary-btn {
+  margin: 57px 0;
+}
+#contents .cards .first-card img {
+  max-width: 405px;
+}
+#contents .cards .second-card .primary-btn {
+  margin: 38px 0;
+}
+#contents .cards .second-card img {
+  max-width: 379px;
+}
+
+#gallery {
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1087px;
+}
+#gallery .sub-heading {
+  margin-top: 10px;
+}
+#gallery .gallery-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 33px;
+  margin-top: 44px;
+}
+#gallery .gallery-photos img {
+  border-radius: 15px;
+}
+#gallery .gallery-photos-2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-gap: 33px;
+  margin-top: 44px;
+}
+#gallery .gallery-photos-2 img {
+  border-radius: 15px;
+}
+#gallery .gallery-photos-2 img:nth-child(2) {
+  height: 280px;
+}
+#gallery .standart-btn {
+  padding: 10px 40px;
+  margin-top: 44px;
 }
 
 #opentype {

@@ -218,6 +218,49 @@ body {
 
 // GALLERY - SECTION START
 
+#gallery {
+    @extend .ta-c;
+
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1087px;
+
+    .sub-heading {
+        margin-top: 10px;
+    }
+
+    .gallery-photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 33px;
+        margin-top: 44px;
+
+        img {
+            border-radius: 15px;
+        }
+    }
+
+    .gallery-photos-2 {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+        grid-gap: 33px;
+        margin-top: 44px;
+
+        img {
+            border-radius: 15px
+        }
+
+        img:nth-child(2) {
+            height: 280px;
+        }
+    }
+
+    .standart-btn {
+        padding: 10px 40px;
+        margin-top: 44px;
+    }
+}
+
 // GALLERY - SECTION END
 
 // PARTNERS - SECTION START
