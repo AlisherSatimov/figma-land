@@ -527,7 +527,7 @@ body {
 }
 
 #testimonials {
-  width: 885px;
+  max-width: 885px;
   padding: 50px 0;
 }
 #testimonials img {
@@ -543,7 +543,7 @@ body {
 }
 #testimonials .testimonials-content .first-column,
 #testimonials .testimonials-content .second-column {
-  width: 400px;
+  max-width: 400px;
 }
 #testimonials .testimonials-content .client-card {
   display: inline-block;
