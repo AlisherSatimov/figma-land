@@ -247,7 +247,7 @@ body {
         margin-top: 44px;
 
         img {
-            border-radius: 15px
+            border-radius: 15px;
         }
 
         img:nth-child(2) {
@@ -264,6 +264,32 @@ body {
 // GALLERY - SECTION END
 
 // PARTNERS - SECTION START
+
+#partners {
+    @extend .m0-a;
+
+    width: 832px;
+    padding: 100px 0;
+
+    .partners_content {
+        @extend .flex-i, .fd-c, .ai-c;
+
+        .second-headline,
+        .sub-heading {
+            @extend .ta-c;
+
+            padding: 10px;
+        }
+
+        .brands {
+            @extend .flex-i, .jc-sb;
+
+            width: 832px;
+            height: 60px;
+            padding: 50px 0;
+        }
+    }
+}
 
 // PARTNERS - SECTION END
 

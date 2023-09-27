@@ -60,11 +60,12 @@ p {
   color: #fff;
 }
 
-.m0-a, #footer, #opentype, #header .screens, #header .navbar {
+.m0-a, #footer, #opentype, #partners, #header .screens, #header .navbar {
   margin: 0 auto;
 }
 
-.ta-c, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
+.ta-c, #partners .partners_content .second-headline,
+#partners .partners_content .sub-heading, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
   text-align: center;
 }
 
@@ -81,11 +82,11 @@ p {
   display: flex;
 }
 
-.flex-i, #contents .cards, .btn, .primary-btn, .standart-btn {
+.flex-i, #partners .partners_content .brands, #partners .partners_content, #contents .cards, .btn, .primary-btn, .standart-btn {
   display: inline-flex;
 }
 
-.ai-c, #footer .footer_contact_links .block, #header .navbar, .btn, .primary-btn, .standart-btn {
+.ai-c, #footer .footer_contact_links .block, #partners .partners_content, #header .navbar, .btn, .primary-btn, .standart-btn {
   align-items: center;
 }
 
@@ -109,11 +110,11 @@ p {
   justify-content: start;
 }
 
-.jc-sb, #footer .footer_lists, #footer, #opentype .opentype-content, #header .navbar ul, #header .navbar {
+.jc-sb, #footer .footer_lists, #footer, #opentype .opentype-content, #partners .partners_content .brands, #header .navbar ul, #header .navbar {
   justify-content: space-between;
 }
 
-.fd-c, #footer .footer_contact_links, #footer .footer_lists .footer_list, #features .features-content .features-content-rows .feature-content-row, #features .features-content .features-content-rows, #header .showcase {
+.fd-c, #footer .footer_contact_links, #footer .footer_lists .footer_list, #partners .partners_content, #features .features-content .features-content-rows .feature-content-row, #features .features-content .features-content-rows, #header .showcase {
   flex-direction: column;
 }
 
@@ -197,11 +198,12 @@ p {
   color: #fff;
 }
 
-.m0-a, #footer, #opentype, #header .screens, #header .navbar {
+.m0-a, #footer, #opentype, #partners, #header .screens, #header .navbar {
   margin: 0 auto;
 }
 
-.ta-c, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
+.ta-c, #partners .partners_content .second-headline,
+#partners .partners_content .sub-heading, #gallery, #contents, #features .sub-heading, #features .second-headline, #header .showcase {
   text-align: center;
 }
 
@@ -218,11 +220,11 @@ p {
   display: flex;
 }
 
-.flex-i, #contents .cards, .btn, .primary-btn, .standart-btn {
+.flex-i, #partners .partners_content .brands, #partners .partners_content, #contents .cards, .btn, .primary-btn, .standart-btn {
   display: inline-flex;
 }
 
-.ai-c, #footer .footer_contact_links .block, #header .navbar, .btn, .primary-btn, .standart-btn {
+.ai-c, #footer .footer_contact_links .block, #partners .partners_content, #header .navbar, .btn, .primary-btn, .standart-btn {
   align-items: center;
 }
 
@@ -246,11 +248,11 @@ p {
   justify-content: start;
 }
 
-.jc-sb, #footer .footer_lists, #footer, #opentype .opentype-content, #header .navbar ul, #header .navbar {
+.jc-sb, #footer .footer_lists, #footer, #opentype .opentype-content, #partners .partners_content .brands, #header .navbar ul, #header .navbar {
   justify-content: space-between;
 }
 
-.fd-c, #footer .footer_contact_links, #footer .footer_lists .footer_list, #features .features-content .features-content-rows .feature-content-row, #features .features-content .features-content-rows, #header .showcase {
+.fd-c, #footer .footer_contact_links, #footer .footer_lists .footer_list, #partners .partners_content, #features .features-content .features-content-rows .feature-content-row, #features .features-content .features-content-rows, #header .showcase {
   flex-direction: column;
 }
 
@@ -508,6 +510,20 @@ body {
 #gallery .standart-btn {
   padding: 10px 40px;
   margin-top: 44px;
+}
+
+#partners {
+  width: 832px;
+  padding: 100px 0;
+}
+#partners .partners_content .second-headline,
+#partners .partners_content .sub-heading {
+  padding: 10px;
+}
+#partners .partners_content .brands {
+  width: 832px;
+  height: 60px;
+  padding: 50px 0;
 }
 
 #opentype {
