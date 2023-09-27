@@ -3,73 +3,73 @@
 @import "typography";
 
 body {
-    background-color: $main-bg-col;
-    color: $light-text-col;
+  background-color: $main-bg-col;
+  color: $light-text-col;
 }
 
 // HEADER START
 
 #header {
-    .navbar {
-        @extend .flex, .jc-sb, .ai-c, .m0-a;
+  .navbar {
+    @extend .flex, .jc-sb, .ai-c, .m0-a;
 
-        max-width: 1100px;
-        padding: 33px 39px;
+    max-width: 1100px;
+    padding: 33px 39px;
 
-        ul {
-            @extend .flex, .jc-sb;
+    ul {
+      @extend .flex, .jc-sb;
 
-            width: 30%;
-            margin-right: 4%;
+      width: 30%;
+      margin-right: 4%;
 
-            li {
-                @extend .link;
-            }
-        }
-
-        img {
-            width: 186px;
-            height: 58px;
-        }
+      li {
+        @extend .link;
+      }
     }
 
-    .showcase {
-        @extend .ta-c, .flex, .fd-c;
+    img {
+      width: 186px;
+      height: 58px;
+    }
+  }
 
-        padding: 35px 0;
+  .showcase {
+    @extend .ta-c, .flex, .fd-c;
 
-        .showcase-text {
-            margin: 50px auto;
+    padding: 35px 0;
 
-            .headline {
-                padding: 10px;
-                margin-bottom: 17px;
-            }
+    .showcase-text {
+      margin: 50px auto;
 
-            .sub-heading {
-                padding: 10px;
-            }
-        }
+      .headline {
+        padding: 10px;
+        margin-bottom: 17px;
+      }
 
-        .showcase-btns {
-            @extend .flex, .jc-c;
-            gap: 35px;
-            .primary-btn,
-            .standart-btn {
-                padding: 20px 40px;
-            }
-        }
+      .sub-heading {
+        padding: 10px;
+      }
     }
 
-    .screens {
-        @extend .m0-a, .po-r;
-
-        max-width: 1552px;
-        height: 850px;
-        background-image: url(../../../images/screens_img-linear.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+    .showcase-btns {
+      @extend .flex, .jc-c;
+      gap: 35px;
+      .primary-btn,
+      .standart-btn {
+        padding: 20px 40px;
+      }
     }
+  }
+
+  .screens {
+    @extend .m0-a, .po-r;
+
+    max-width: 1552px;
+    height: 850px;
+    background-image: url(../../../images/screens_img-linear.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 // HEADER END
@@ -103,6 +103,51 @@ body {
 // MAIN END
 
 // FOOTER START
+
+#footer {
+  @extend .m0-a, .flex, .jc-sb, .flex-w;
+
+  max-width: 1031px;
+  margin: 0 auto;
+  padding: 107px 0;
+
+  .footer_lists {
+    @extend .flex, .jc-sb;
+    width: 513px;
+    // gap: 75px;
+
+    .footer_list {
+      @extend .link, .flex, .fd-c;
+      gap: 10px;
+
+      li:first-child {
+        @extend .title;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .footer_contact_links {
+    @extend .flex, .link, .ai-s, .fd-c;
+    gap: 10px;
+    padding-top: 10px;
+
+    .block {
+      @extend .flex, .ai-c;
+
+      img {
+        width: 46px;
+        height: 46px;
+      }
+    }
+  }
+
+  .footer-icons {
+    @extend .flex;
+    gap: 24px;
+    margin-top: 20px;
+  }
+}
 
 // start coding----
 
